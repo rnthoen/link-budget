@@ -169,7 +169,7 @@ inter_unit 	= ttk.Label(frame, text='[-]')			.grid(column=2, row=9, sticky='W', 
 d_space_sun_var 	= tk.StringVar()
 d_space_sun_label 	= ttk.Label(frame, text='d_space_sun')			.grid(column=0, row=10, sticky='W', **options)
 d_space_sun_entry 	= ttk.Entry(frame, textvariable=d_space_sun_var)	.grid(column=1, row=10, sticky='W', **options)
-d_space_sun_unit 	= ttk.Label(frame, text='[m]')					.grid(column=2, row=10, sticky='W', **options)
+d_space_sun_unit 	= ttk.Label(frame, text='[m]')				.grid(column=2, row=10, sticky='W', **options)
 
 theta_var 	= tk.StringVar()
 theta_label 	= ttk.Label(frame, text='theta')		.grid(column=0, row=11, sticky='W', **options)
